@@ -7,5 +7,9 @@ seaborn
 scikit-learn
 networkx
 pyvis
+statsmodel
+scipy
+datetime
+sklearn
 
 
