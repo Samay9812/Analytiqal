@@ -6,4 +6,6 @@ matplotlib
 seaborn
 scikit-learn
 networkx
+pyvis
+
 
