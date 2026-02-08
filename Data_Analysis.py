@@ -10,7 +10,7 @@ from io import BytesIO
 import networkx as nx
 from pyvis.network import Network
 import streamlit.components.v1 as components
-from statsmodels.tsa.seasonal import seasonal_decompose
+#from statsmodels.tsa.seasonal import seasonal_decompose
 import warnings
 from datetime import datetime
 from scipy import stats
@@ -2432,4 +2432,5 @@ elif page == "💾 Export & Reports":
 
 
 if df is None:
+
     st.info("👆 Upload a dataset to get started!")
