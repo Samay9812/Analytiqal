@@ -13,11 +13,11 @@ import streamlit.components.v1 as components
 #from statsmodels.tsa.seasonal import seasonal_decompose
 import warnings
 from datetime import datetime
-from scipy import stats
-from scipy.stats import mstats
-from scipy.stats import skew
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, LabelEncoder
-from sklearn.decomposition import PCA
+#from scipy import stats
+#from scipy.stats import mstats
+#from scipy.stats import skew
+#from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, LabelEncoder
+#from sklearn.decomposition import PCA
 import json
 
 # Initialize session state
@@ -2434,3 +2434,4 @@ elif page == "💾 Export & Reports":
 if df is None:
 
     st.info("👆 Upload a dataset to get started!")
+
