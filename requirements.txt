@@ -8,6 +8,8 @@ scikit-learn
 networkx
 pyvis
 scipy
+openpyxl
+
 
 
 
