@@ -7,6 +7,8 @@ seaborn
 scikit-learn
 networkx
 pyvis
+scipy
+
 
 
 
